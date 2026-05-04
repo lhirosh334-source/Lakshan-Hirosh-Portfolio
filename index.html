@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshan Hirosh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">LH<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero-bg.jpg" alt="Background">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="name-highlight">Lakshan Hirosh</span></h1>
+                <div class="hero-typing">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">I transform creative visions into stunning visual experiences, powerful digital campaigns, and cutting-edge AI-generated content that captivates audiences.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <img src="assets/project3.jpg" alt="Lakshan Hirosh">
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Creative Designer & Digital Strategist</h3>
+                    <p>I'm Lakshan Hirosh, a passionate Graphic Designer, Digital Marketer, and AI Content Creator based in Sri Lanka. With over 5 years of experience in the creative industry, I specialize in crafting visually compelling designs, data-driven marketing campaigns, and innovative AI-powered content.</p>
+                    <p>My mission is to bridge the gap between aesthetics and functionality, delivering solutions that not only look stunning but also drive real business results. Whether it's a brand identity, a social media strategy, or an AI-generated creative campaign, I bring dedication and innovation to every project.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="150">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I do best</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-desc">From brand identities to marketing materials, I create visually stunning designs that communicate your message with clarity and impact. Logos, brochures, social media graphics, and more.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-desc">Strategic digital marketing solutions that drive engagement and conversions. Social media management, SEO, content marketing, and paid advertising campaigns tailored to your goals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">AI Content Creation</h3>
+                    <p class="service-desc">Leveraging cutting-edge AI tools to generate unique, high-quality content. AI-generated images, copywriting assistance, video scripts, and innovative creative solutions at scale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">My recent work</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/project1.jpg" alt="Brand Identity Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Aurora Brand Identity</h4>
+                                <p>Complete branding package including logo, stationery, and brand guidelines for a tech startup.</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/project2.jpg" alt="Social Media Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Blast Off Campaign</h4>
+                                <p>Creative social media marketing campaign that increased engagement by 300% for a gaming app.</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/project3.jpg" alt="AI Art Collection">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Neural Dreams Collection</h4>
+                                <p>A series of AI-generated artworks exploring the intersection of technology and human emotion.</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/project4.jpg" alt="Dashboard UI Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Analytics Dashboard UI</h4>
+                                <p>Modern dark-mode dashboard interface design for a SaaS analytics platform.</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">My expertise & tools</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="skills-cat-title"><i class="fas fa-palette"></i> Design Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Adobe Photoshop</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Adobe Illustrator</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Figma</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Adobe Premiere Pro</span>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-cat-title"><i class="fas fa-chart-line"></i> Marketing Platforms</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Meta Business Suite</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Google Ads & Analytics</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>SEO & Content Strategy</span>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Email Marketing</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-cat-title"><i class="fas fa-brain"></i> AI Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Midjourney & DALL-E</span>
+                            <span class="skill-percent">93%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="93"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>ChatGPT & Claude</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Runway & Pika Labs</span>
+                            <span class="skill-percent">78%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Canva AI</span>
+                            <span class="skill-percent">96%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="96"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Testimonials</h2>
+                <p class="section-subtitle">What clients say</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Lakshan transformed our brand identity completely. His attention to detail and creative vision exceeded all our expectations. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #00f2ea, #bd00ff); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">SK</div>
+                        <div class="author-info">
+                            <h4>Samantha Karunaratne</h4>
+                            <span>CEO, TechNova</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The digital marketing campaign Lakshan designed brought us a 250% increase in leads within the first month. His strategic thinking is exceptional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #bd00ff, #00f2ea); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">RP</div>
+                        <div class="author-info">
+                            <h4>Rohan Perera</h4>
+                            <span>Marketing Director, Apex</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Working with Lakshan on AI content was a game-changer. He produced stunning visuals for our campaign that our audience absolutely loved."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #00f2ea, #0077ff); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">ND</div>
+                        <div class="author-info">
+                            <h4>Nisha De Silva</h4>
+                            <span>Creative Lead, Spark Studios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:hello@lakshanhirosh.com">hello@lakshanhirosh.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span>Phone</span>
+                                <a href="tel:+94123456789">+94 123 456 789</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>Location</span>
+                                <span>Colombo, Sri Lanka</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <div class="form-success" id="formSuccess">Thank you! Your message has been sent successfully.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">LH<span>.</span></a>
+                    <p>Creating visual experiences that inspire and convert.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Graphic Design</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">AI Content</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Lakshan Hirosh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
